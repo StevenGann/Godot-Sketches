@@ -14,10 +14,22 @@ config/name="Addon Testing"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+ControllerIcons="*uid://cw883lhmsufi0"
+DebugGraph="*uid://d1yj0qtdy68p"
+DialogueManager="*uid://c3rodes2l3gxb"
+GUIDE="*uid://p2jwrgjcbexr"
+PhantomCameraManager="*uid://duq6jhf6unyis"
+
 [display]
 
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/ScatterShot/plugin.cfg", "res://addons/controller_icons/plugin.cfg", "res://addons/debug_graph/plugin.cfg", "res://addons/dialogue_manager/plugin.cfg", "res://addons/guide/plugin.cfg", "res://addons/phantom_camera/plugin.cfg")
 
 [physics]
 
